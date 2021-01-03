@@ -1,1 +1,4 @@
 FROM jenkins/jenkins:lts
+ENV DOCKER_HOST="tcp://docker:2375"
+ENV DOCKER_CERT_PATH=""
+ENV DOCKER_TLS_VERIFY=""
