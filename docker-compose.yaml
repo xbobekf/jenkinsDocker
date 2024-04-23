@@ -3,7 +3,6 @@ version: '3'
 services:
   jenkins:
     image: jenkins:custom
-    priviledged: true
     build: 
       context: .
     container_name: jenkins
